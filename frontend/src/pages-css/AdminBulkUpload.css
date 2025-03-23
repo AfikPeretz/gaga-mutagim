@@ -1,0 +1,39 @@
+
+
+.admin-bulk-container {
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #f5f7fa, #c3cfe2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  text-align: center;
+}
+
+.admin-bulk-title {
+  font-size: 2.5rem;
+  color: #2d3748;
+  margin-bottom: 2rem;
+  font-weight: 700;
+}
+
+.admin-bulk-container input[type="file"] {
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+}
+
+.admin-bulk-container button {
+  background-color: #1a202c;
+  color: white;
+  padding: 0.7rem 1.5rem;
+  border-radius: 1rem;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.admin-bulk-container button:hover {
+  background-color: #2d3748;
+}
